@@ -33,4 +33,3 @@ jobs:
         run: |
           echo "hello github actions"
           Get-Date
-          

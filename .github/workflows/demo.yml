@@ -10,6 +10,7 @@ jobs:
   # This workflow contains a single job called "build_on_linux" .build_on_linux is the job name
   build_on_linux:
     # The type of runner that the job will run on
+     # this is job1 and its name is build_on_linux
     runs-on: ubuntu-latest
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -26,6 +27,7 @@ jobs:
           echo test, and deploy your project.
           date
   build_on_windows:
+  # this is job2 and its name is build_on_windows
     runs-on: windows-latest
     steps:
       - name: run multi-line scripts
